@@ -572,15 +572,10 @@ color: #000000;
     justify-content: space-evenly;
     gap: 30%;
 }
+.stores-logo {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    
+}
 
-/* .card-1 {
-    background-color: black;
-    margin-left: 10px;
-}
-.card-2 {
-    background-color: red;
-    margin-left: 30px;
-}
-.card-3 {
-    background-color: orange;
-} */
