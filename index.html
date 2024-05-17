@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/Glaxi 2.svg">
     <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <nav>
@@ -28,9 +33,9 @@
             <img src="assets/Layer_x0020_1.svg" alt="logo" />
           </a>
         <div>
-          <ul class="nav-links">
+          <ul class="nav-links " id="nav-links">
             <li class="nav-item-1 li-items active">
-              <a href="" class="nav-link">how it works?</a>
+              <a href="" class="nav-link item-1">How it works?</a>
             </li>
             <li class="nav-item li-items active">
               <a href="" class="nav-link">why Galaxi?</a>
@@ -46,7 +51,7 @@
             </li>
           </ul>
         </div>
-        <a href="#" class="nav-toggle">
+        <a href="#" class="nav-toggle" id="toggle-btn">
             <i class="fa-solid fa-bars fa-2xl"></i>
         </a>
       </div>
@@ -72,9 +77,10 @@
         <div >
                 <img src="assets/Group 186 (1).svg" alt="Mobile image " class="main-image">
         </div>
+    </div>
         <span class="yellow-shade"><img src="assets/Ellipse 1.svg" alt="side shadow "></span>
         <span class="green-shade"><img src="assets/Ellipse 1 (1).svg" alt="side shadow "></span>
-    </div>
+    
 
     </section>
     <section class="cards-menu">
@@ -117,14 +123,8 @@
                             eget quamumto.</p>
                     </div>
             </div>
+            </section>
         
-    </section>
-    <section class="container-texting">
-        <h3>Features</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-            </p>
-    </section>
 <section class=" section-2">
     <div class="paragraph">
         <h3 class="sec-2-head">Why Galaxi?</h3>
@@ -139,36 +139,56 @@
             beyond reproach. inappropriate behavior is often laughed off</p>
     </div>
     <div class="image-sec2">
-        <img src="assets/Group 185.svg" alt="image">
+        <img src="assets/Group 185.svg" alt="image" class="circle-img">
     </div>
 </section>
 <section class="video-section">
     <h3 class="video-para">Explainer video</h3>
     <div class="video-poster" >
-        <iframe src="https://www.youtube.com/embed/GlZlmm4QLmY?si=33wf1enHgldtLbK7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video-poster"></iframe>
         <img src="assets/Ellipse 3.svg" alt="ellipse" class="ellipse top">
+        <iframe src="https://www.youtube.com/embed/GlZlmm4QLmY?si=33wf1enHgldtLbK7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video-poster"></iframe>
+        
         <img src="assets/Ellipse 3.svg" alt="ellipse bottom" class="ellipse bottom">
-    <div class="bottom">
-
-    </div>
     </div> 
     
 </section> 
-<section>
+<section >
+    <div class="slider-paragraph">
 <h3 class="feature-heading">Features</h3>
 <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
     incididunt ut labore et dolore magna aliqua.
     </p>
+</div>
     <div class="images-6">
-        
-        <!-- <img src="assets/OnePlus 10T (2).png" alt="mobile image " class="img img-1">
-        <img src="assets/OnePlus 10T (1).png" alt="mobile image" class="img img-2">
-        <img src="assets/OnePlus 10T (3).png" alt="mobile image" class="img img-3">
-        <img src="assets/OnePlus 10T.png" alt="mobile image" class="img img-4">
-        <img src="assets/OnePlus 10T (4).png" alt="mobile image" class="img img-5">
-        <img src="assets/OnePlus 10T (5).png" alt="mobile image" class="img img-6">-->
+          <div class="container">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/OnePlus 10T (6).png" class="img-sze" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/OnePlus 10T (7).png" class="img-sze" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/OnePlus 10T (8).png" class="img-sze" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/OnePlus_10T__6.png " class="img-sze" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/OnePlus 10T (9).png" class="img-sze" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/OnePlus 10T (10).png" class="img-sze" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/OnePlus 10T (11).png" class="img-sze" />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
         <img src="assets/Ellipse 1 (2).svg" alt="ellipse" class="features-ellipse"> 
-        <img src="assets/oneplus10T-6.png" alt="mobile images " class="img-7">
     </div>
 </section>
 
@@ -185,14 +205,14 @@
             <img src="assets/Vector.svg" alt="appstore">
         </div>
             <div class="vertical-image">
-                <img src="assets/OnePlus 10T.png" alt="onplus mobile picture" class="side-picture">
+                <img src="assets/OnePlus 10T (4).svg" alt="onplus mobile picture" class="side-picture">
             </div>
         </div>
     </div>
 </section>
 <section class="form-1">
-    <div>
-        <img src="assets/get in touch 1.svg" alt="get in touch"></div>
+    <div class="touch-img">
+        <img src="assets/get in touch 1.svg" alt="get in touch" class="form-img" ></div>
     <div class="submit-form">
         <h3 class="mb-0 mt-0 form-heading">Get In Touch</h3>
         <p class="mb-0 form-para">Quisque posuere mollis ipsum et molestie. Fusce cursus, risus vel scelerisque
@@ -209,7 +229,7 @@
 <!-- <section class="footer-width"> -->
     <div class="downloading-footer">
         <img src="assets/Ellipse 3.svg" alt="shadow" class="F-L-shadow pos">
-        <img src="assets/Ellipse 4.svg" alt="shadow" class="F-R-shadow pos">
+        
         <div class="footer-content">
             <h3 class="footer-heading">Try Galaxi App for free!</h3>
             <p class="footer-parag">Quisque posuere mollis ipsum et molestie. Fusce cursus, risus vel scelerisque
@@ -219,11 +239,11 @@
             <a href="#"><img src="assets/Group 102.svg" alt="appstore logo "></a>
             </div>
         </div>
-        <!-- <img src="assets/Group 177.svg" alt="footer" class="footer"> -->
+        <img src="assets/Ellipse 4.svg" alt="shadow" class="F-R-shadow pos">    
     </div>
 </section>
 
-<section>
+<section class="last-footer">
     <div class="logo-footer">
         <img src="assets/Glaxi 2.svg" alt="logo" class="footer-l-i">
         <p>Quisque posuere mollis ipsum et molestie. Fusce cursus, risus vel scelerisque
@@ -241,5 +261,8 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
