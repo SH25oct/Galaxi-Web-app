@@ -58,6 +58,10 @@
         height: 184px;
         bottom: 5%;
     }
+      .g-s-2 {
+        width: 184px;
+        height: 384px;
+    } 
     .vertical-image {
         display: none;
     }
