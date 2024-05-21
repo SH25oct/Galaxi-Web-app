@@ -6,13 +6,14 @@
     }
     .main-nav {
         position: relative;
+        transition: 0.6s ease-in-out;
     }
     
     .nav-links {
-        display: none;
+       display: none;
     }
     .nav-links.active {
-       display:block;
+        display:block;
         right: 0;
         position: absolute;
         z-index: 10;
@@ -23,7 +24,7 @@
         padding-block: 20px;
         flex-direction: column;
     }
-     .li-items {
+    .li-items {
         margin: 30px 0;
         text-align: center;
         width: 40%;
@@ -56,12 +57,9 @@
     .green-shade {
         width: 184px;
         height: 184px;
-        bottom: 2%;
+        bottom: 5%;
+        /* top: 0; */
     }
-      .g-s-2 {
-        width: 184px;
-        height: 384px;
-    } 
     .vertical-image {
         display: none;
     }
@@ -71,6 +69,10 @@
     .section-2 {
         justify-content: center;
     }
+     .g-s-2 {
+        width: 184px;
+        height: 384px;
+    } 
     .image-sec2 {
         width: 70%;
         height: auto;
@@ -111,7 +113,7 @@
     }
     .video-poster {
         max-height: 150px;
-        width: 100%;
+        width: 95%;
         z-index: 5;
     }
     .slider-paragraph {
@@ -132,10 +134,11 @@
        
     }
     .bottom {
-        bottom: -60%;
-        right:-30%;
+        bottom: -42%;
+        right: -10%;
         z-index: 1;
-        width: 220px;
+        width: 120px;
+    }
         
     }
     .swiper {
@@ -165,7 +168,7 @@
     }
     .white-lorem {
         text-align: center;
-        padding-top: 20px;
+        padding: 20px 20px 0px 20px;
     }
     .store-logos {
         padding-bottom: 10px;
@@ -204,14 +207,18 @@
         
     }
     .F-R-shadow {
+        width: 150px;
+        height: 200px;
         left: 0;
-        top: -80%;
+        top: -30%;
     }
     .F-L-shadow {
-        right: -60%;
-        bottom: -50%;
-        /* z-index:-1 ; */
-    }
+        right: 0%;
+        bottom: -45%;
+        width: 180px;
+        height: 450px;   
+         /* z-index:-1 ;  */
+     }
     .last-footer {
         position: relative;
         z-index:12;;
