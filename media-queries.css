@@ -134,12 +134,10 @@
        
     }
     .bottom {
-        bottom: -42%;
+               bottom: -42%;
         right: -10%;
         z-index: 1;
         width: 120px;
-    }
-        
     }
     .swiper {
        width: 50% !important;
